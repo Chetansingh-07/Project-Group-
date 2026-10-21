@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Web Project</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <main class="card">
+    <h1 id="title">Welcome!</h1>
+    <p id="description">This is a simple HTML, CSS, and JavaScript starter project.</p>
     
+    <div class="counter-box">
+      <span class="label">Click Counter</span>
+      <span id="counter" class="count">0</span>
+    </div>
+
+    <div class="actions">
+      <button id="incrementBtn" class="btn btn-primary">Click Me</button>
+      <button id="resetBtn" class="btn btn-secondary">Reset</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
